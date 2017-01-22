@@ -1,4 +1,4 @@
-# Spoj-Solution
+// Spoj-Solution
 //MATGAME - Matrix Game
 //consider each row as a different game and find grundy numbers for each row started from the last column of each row.Xor of all grundy number will be zero for a losing state.
 
