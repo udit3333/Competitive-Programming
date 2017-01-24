@@ -52,7 +52,7 @@ return 0;
 }
 */
 //But we can sort the suffixes lexographically in O(n*logn*logn).By sorting them first on the basis of 1 character and then 2,4,8...so on.
-//After sorting we need to lcp array which can be implementing using kasai algorithm in linear running time.
+//After sorting we need to make lcp array which can be implementing using kasai algorithm in linear running time.
 #include<bits/stdc++.h>
 using namespace std;
 #define rep(i,n) for(int i=0;i<n;i++)
