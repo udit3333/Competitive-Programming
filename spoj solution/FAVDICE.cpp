@@ -1,5 +1,8 @@
 //FAVDICE - Favorite Dice
-//consider Xi as random variable which is expectation of ith value on dice after i-1 distinct values. Now in each turn either it is the ith value or one from the previous i-1 values.So Xi can be consider as gp with a sucess probability of (n-(i-1))/n which is also the reciprocal of expectation of Xi i.e E[Xi].By linear property of expectation E[x]=E[X1]+E[X2]+.....+E[Xn].  
+//consider Xi as random variable which is expectation of ith value on dice after i-1 distinct values. 
+//Now in each turn either it is the ith value or one from the previous i-1 values.
+//So Xi can be consider as gp with a sucess probability of (n-(i-1))/n which is also the reciprocal of expectation of Xi i.e E[Xi].
+//By linear property of expectation E[x]=E[X1]+E[X2]+.....+E[Xn].  
 #include <iostream>
 using namespace std;
 #define rep(i,n) for(int i=0;i<n;i++)
