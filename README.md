@@ -1,2 +1,2 @@
-# Spoj
-c++ code for some of the spoj problems coded by me.
+# Competetive Programming
+Cpp code for problems solved by me.
